@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Account Opening Form</title>
+</head>
+<body>
+
+<h2 style="text-align:center;">ACCOUNT OPENING FORM</h2>
+
+<form>
+    <fieldset>
+        <legend><b>Personal Details</b></legend>
+        
+        Name*:<br>
+        <input type="text" name="name" required><br><br>
+
+        Name of (Father/Guardian):<br>
+        <input type="text" name="guardian"><br><br>
+
+        Date of Birth *(dd-mm-yyyy):<br>
+        <input type="date" name="dob" required><br><br>
+
+        Gender*:<br>
+        <input type="radio" name="gender" value="male" required> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+        Nationality:<br>
+        <input type="text" name="nationality"><br><br>
+
+        Account Type*:<br>
+        <input type="radio" name="account_type" value="savings" required> Savings
+        <input type="radio" name="account_type" value="fixed"> Fixed<br><br>
+
+        Preferences:<br>
+        <input type="checkbox" name="preference" value="internet"> Internet Banking
+        <input type="checkbox" name="preference" value="mobile"> Mobile Banking
+        <input type="checkbox" name="preference" value="sms"> SMS Alerts<br><br>
+
+        Address:<br>
+        <textarea name="address" rows="3" cols="40"></textarea><br><br>
+
+        Country*:<br>
+        <select name="country" required>
+            <option value="">Please select...</option>
+            <option value="pakistan">Pakistan</option>
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+        </select><br><br>
+
+        Zip Code*:<br>
+        <input type="text" name="zip" required><br><br>
+
+        Phone*:<br>
+        <input type="text" name="phone" required><br><br>
+
+        Email*:<br>
+        <input type="email" name="email" required><br><br>
+
+        Password (6-8 characters)*:<br>
+        <input type="password" name="password" required><br><br>
+
+        Verify Password*:<br>
+        <input type="password" name="verify_password" required><br><br>
+
+        <input type="submit" value="SEND">
+        <input type="reset" value="CLEAR">
+    </fieldset>
+</form>
+
+</body>
+</html>
